@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+.container{
+    /* width: 800px; */
+    height: 600px; 
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.nav{
+    background-color: #D7E8D4;
+    /* grid-column: 1/8; */
+    grid-row: 1/-1;
+    padding:1em;
+
+}
+.header{
+    background-color: yellowgreen;
+    grid-column: 2/-1;
+    padding:1em;
+
+}
+.article{
+    background-color: aqua;
+    grid-column: 2/6;
+    grid-row: 2/6;
+
+    padding:1em;
+
+}
+.aside{
+    background-color: bisque;
+    grid-row: 2/6;
+    padding:1em;
+
+}
+.footer{
+    background-color: yellowgreen;
+    grid-column: 2/-1;
+    padding:1em;
+
+}
